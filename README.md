@@ -4,8 +4,8 @@ golang单元测试工具
 使用golang的过程中，执行命令总是出现文件进程被占用，而且写go test执行单元测试时，测试方法写好长。希望列出所有可执行的方法直接选择执行即可，不用自己输入一长串的东西，达到这种效果：
 
 $ gm chdir
-1 ---- logf_test.go----TestSysLog1
-2 ---- logf_test.go----TestSlice1
+1 ---- logf_test.go----TestSysLog1 \n
+2 ---- logf_test.go----TestSlice1 \n
 3 ---- logfactory_test.go----TestSysLog
 4 ---- logfactory_test.go----TestSlice
 5 ---- regex_test.go----TestRegEx
